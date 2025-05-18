@@ -1,0 +1,125 @@
+.about {
+  background-color: #030033;
+  color: white;
+  padding: 80px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ff0fa1;
+}
+
+.about-content .intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.about-content .quote {
+  margin-top: 20px;
+  font-style: italic;
+  color: #999;
+}
+
+.about-photo img {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.projects {
+  background-color: #030033;
+  padding: 80px 50px;
+  color: white;
+}
+
+.projects h2 {
+  text-align: center;
+  color: #4b7bec;
+  margin-bottom: 40px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #1d1d5e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: #ff0fa1;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 1.5;
+}
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  background-color: #030033;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.logo span {
+  color: rgb(11, 11, 187);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.menu li a:hover {
+  color: deeppink;
+}
+.btn-cv {
+  background-color: deeppink;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}

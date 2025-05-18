@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+     <nav>
+    <div class="logo">Ange<span>lique</span></div>
+    <ul class="menu">
+      <li><a href="Accueil.html">Accueil</a></li>
+      <li><a href="Propos.html">Propos</a></li>
+      <li><a href="Compétence.html">Compétence</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    <button class="btn-cv">Télécharger CV</button>
+  </nav>
+
+<section class="contact">
+  <h2>Me contacter</h2>
+  <p class="contact-intro">
+    Une idée, une question, une collaboration ?  
+    Remplissez le formulaire ci-dessous et je vous répondrai au plus vite !
+  </p>
+
+  <form class="contact-form" action="https://formspree.io/f/YOUR_ID_ICI" method="POST">
+    <div class="form-group double">
+      <input type="text" name="prenom" placeholder="Prénom" required>
+      <input type="text" name="nom" placeholder="Nom" required>
+    </div>
+
+    <div class="form-group">
+      <input type="tel" name="telephone" placeholder="Numéro de téléphone" required>
+    </div>
+
+    <div class="form-group">
+      <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
+    </div>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+
+
+    
+</body>
+</html>
